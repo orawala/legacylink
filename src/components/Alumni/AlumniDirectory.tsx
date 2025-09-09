@@ -135,7 +135,7 @@ const AlumniDirectory = () => {
                 <SelectValue placeholder="Graduation Year" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Years</SelectItem>
+                <SelectItem value="all">All Years</SelectItem>
                 <SelectItem value="2021">2021</SelectItem>
                 <SelectItem value="2020">2020</SelectItem>
                 <SelectItem value="2019">2019</SelectItem>
@@ -148,7 +148,7 @@ const AlumniDirectory = () => {
                 <SelectValue placeholder="Current Company" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Companies</SelectItem>
+                <SelectItem value="all">All Companies</SelectItem>
                 <SelectItem value="Google">Google</SelectItem>
                 <SelectItem value="Microsoft">Microsoft</SelectItem>
                 <SelectItem value="Goldman Sachs">Goldman Sachs</SelectItem>
@@ -161,7 +161,7 @@ const AlumniDirectory = () => {
                 <SelectValue placeholder="Location" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Locations</SelectItem>
+                <SelectItem value="all">All Locations</SelectItem>
                 <SelectItem value="Bangalore">Bangalore</SelectItem>
                 <SelectItem value="Hyderabad">Hyderabad</SelectItem>
                 <SelectItem value="Pune">Pune</SelectItem>

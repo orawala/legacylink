@@ -207,7 +207,7 @@ const Internships = () => {
                     <SelectValue placeholder="Location" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="">All Locations</SelectItem>
+                    <SelectItem value="all">All Locations</SelectItem>
                     <SelectItem value="Bangalore">Bangalore</SelectItem>
                     <SelectItem value="Hyderabad">Hyderabad</SelectItem>
                     <SelectItem value="Mumbai">Mumbai</SelectItem>
@@ -220,7 +220,7 @@ const Internships = () => {
                     <SelectValue placeholder="Type" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="">All Types</SelectItem>
+                    <SelectItem value="all">All Types</SelectItem>
                     <SelectItem value="Full-time">Full-time</SelectItem>
                     <SelectItem value="Part-time">Part-time</SelectItem>
                   </SelectContent>
